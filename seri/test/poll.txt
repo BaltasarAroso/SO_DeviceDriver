@@ -1,0 +1,9 @@
+Poll test
+
+Na implementação é pedido a determinação do tamanho da "str1".
+
+Primeiro deverá testar com um valor superior ao do buffer (SIZE_KFIFO=8192) para verificar que retorna a capacidade do buffer de bytes em 'a's e não imprime o número total de caracteres desta string nem imprime a string seguinte.
+
+Posteriormente deverá testar com um valor inferior ao do buffer (SIZE_KFIFO=8192) para verificar que retorna ambas as strings sequencialmente caso a soma do tamanho delas não exceda a capacidade do buffer.
+
+Com esta função de teste podemos verificar o funcionamento do poll com a ativação da flag O_NONBLOCK na abertura do ficheiro.

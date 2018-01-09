@@ -1,0 +1,6 @@
+Nonblock test
+
+Na implementação é pedido a determinação do "Size of the bytes to write".
+
+Colocar valores consoante as notas colocadas no ficheiro .c.
+1º um valor menor que a soma de 3000 com kfifo_len() e depois um valor maior que essa soma para verificar a ativação da flag O_NONBLOCK e a falha de escrita.
