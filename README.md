@@ -4,7 +4,7 @@ Serial Port Device Driver implemented both with polling and interrupt methods.
 ## Project Tasks
 In Linux device drivers can be implemented as kernel modules, which are object code files that can be loaded (and unloaded) dynamically by the Linux kernel, either at boot time or later. This makes it possible to install a device driver without having to recompile the kernel or even reboot the operating system.
 
-This project was divided in 5 tasks:
+This project was divided in 4 tasks:
 - The goal of the first task is to develop a basic **"char device driver"** that in the second task will become a simple device driver for the standard serial port of a PC.
 - In the second task we've developed a basic device driver (DD) that relies on polling. The use of polling severely limits the maximum bit-rate that can be used. (``serp`` for **ser**ial, **p**olled mode)
 
