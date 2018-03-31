@@ -12,7 +12,7 @@ This project was divided in 4 tasks:
 
 - Although the 2rd and the 3th tasks guided us through the implementation of a basic DD for the serial port, completing both tasks would not be enough to achieve a complete DD. We've needed to implement the **enhancements**.
 
-The following is a list of some improvements to the seri DD that you have developed in the last class:
+The following is a list of some improvements to the seri DD:
 - Error Handling
 - Minimize global variables.
 - Eliminate race conditions.
